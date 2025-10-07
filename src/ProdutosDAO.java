@@ -86,7 +86,7 @@ public class ProdutosDAO {
             JOptionPane.showMessageDialog(null, "Erro ao vender produto: " + e.getMessage());
         }
     }
-    /*
+    
     public ArrayList<ProdutosDTO> listarProdutosVendidos() {
         String sql = "SELECT * FROM produtos WHERE status = 'Vendido'";
         ArrayList<ProdutosDTO> vendidos = new ArrayList<>();
@@ -110,6 +110,6 @@ public class ProdutosDAO {
 
         return vendidos;
     } 
-        */
+        
 }
 

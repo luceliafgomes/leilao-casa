@@ -22,7 +22,7 @@ public class vendasViews extends javax.swing.JFrame {
         listarProdutosVendidos();
     }
      private void listarProdutosVendidos() {
-       /* try {
+        try {
             ProdutosDAO produtosdao = new ProdutosDAO();
             ArrayList<ProdutosDTO> listagem = produtosdao.listarProdutosVendidos();
 
@@ -39,7 +39,7 @@ public class vendasViews extends javax.swing.JFrame {
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao carregar produtos vendidos: " + e.getMessage());
-        }*/
+        }
     }
     
 
